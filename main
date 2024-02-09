@@ -1,3 +1,9 @@
 from drawing import *
 from turtle import *
 
+t = Turtle()
+ts = TurtleScreen()
+
+
+
+t.screen.mainloop()
