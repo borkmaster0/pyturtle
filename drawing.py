@@ -49,4 +49,3 @@ def objectAssemble(type: str, pointList: list, drawList: list=[]):
             return a
         ValueError('Unknown type')
 
-def 
