@@ -47,5 +47,5 @@ def objectAssemble(type: str, pointList: list, drawList: list=[]):
             for i in range(0, len(pointList)):
                 a.append(pointList[i].append(list(drawList[i])))
             return a
-        ValueError('Unknown type')
+        raise ValueError('Unknown type')
 
